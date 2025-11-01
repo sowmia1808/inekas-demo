@@ -12,7 +12,7 @@ The Inekas Photo Print Demo allows users to:
 - Preview uploaded photos as thumbnails on the page  
 - Select a print size from a dropdown (4×6, 5×7, 8×10)  
 - Automatically calculate the total price based on selected sizes  
-- Simulate payment with a fake **"Pay Now"** button (no real transaction)  
+- Proceed to a secure Stripe Checkout for simulated payment 
 
 > This demo shows React component structure, state management, and dynamic UI updates using Next.js.
 
@@ -24,7 +24,7 @@ The Inekas Photo Print Demo allows users to:
 - **Thumbnail Preview** – Uploaded images are displayed immediately as small thumbnails for easy verification.  
 - **Print Size Selection** – Users can select print sizes from a dropdown. Each size has a predefined price.  
 - **Automatic Price Calculation** – The app calculates the total price dynamically when the user selects a size.  
-- **Fake Payment Button** – Clicking **“Pay Now”** simulates a checkout without performing real payments.  
+-💳 Stripe Payment Integration – Clicking “Pay Now” redirects users to a Stripe Checkout page (test mode) for a simulated payment process.  
 - **Responsive Design** – Works smoothly on desktop and mobile devices.  
 
 ---
